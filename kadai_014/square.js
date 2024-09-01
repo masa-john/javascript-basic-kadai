@@ -1,6 +1,5 @@
 const Arguments = (value) => {
-    const result = (value * value);
-    console.log(result);
+    return value * value;
 };
 
-Arguments(10);
+console.log(Arguments(10));
